@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="FIS Automation Suite" verbose="1" parallel="false">
+    <test name="UI and API Tests">
+        <classes>
+            <class name="ui.tests.EbayCartTest"/>
+            <class name="api.tests.CoinGeckoApiTest"/>
+        </classes>
+    </test>
+</suite>
